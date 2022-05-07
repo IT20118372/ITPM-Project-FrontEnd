@@ -19,6 +19,7 @@ class CartItemsComponent extends Component {
     render() {
         return (
             <div>
+                <div className='body-i'>
                 <h2 className='text-center'>CART ITEMS</h2>         
                 <div className='row'>
                     <table className='table table-striped table-borderd'>
@@ -43,12 +44,13 @@ class CartItemsComponent extends Component {
                                             <td>{cartitem.itemSize}</td>
                                             <td>{cartitem.itemColour}</td>
                                             <td>{cartitem.itemPrice}</td>
-                                        </tr>
-                                )
+                                        </tr>)
+                                
                             }
                         </tbody>
 
                     </table>
+                </div>
                 </div>
             </div>
         );
